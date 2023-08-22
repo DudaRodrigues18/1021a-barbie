@@ -1,6 +1,5 @@
 import Imagem from "./../../assets/img/barbie-filme.png"
 import './Filme.css'
-import Link from './../link/Link'
 
 function Filme(){
     return(
