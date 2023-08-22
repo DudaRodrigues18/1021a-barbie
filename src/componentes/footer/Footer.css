@@ -51,7 +51,7 @@ footer{
     font-size: 15px;
 }
 .ul-footer li a:hover{
-    opacity: 80%;
+    opacity:80%;
 }
 ul a{
     text-decoration: none;
