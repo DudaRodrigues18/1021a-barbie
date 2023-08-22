@@ -3,11 +3,9 @@ import Link from './../link/Link'
 
 function Filme(){
     return(
-        <main>
-            <div className="film-articles">
-                
+            <div className="film-content">
+                Filme
             </div>
-        </main>
     )
 }
 
