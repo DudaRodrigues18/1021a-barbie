@@ -1,5 +1,8 @@
-.filme-content{
-    min-width: 300px;
-    min-height: 200px;
-    background-color: red;
+.film-content{
+    width: 500px;
+    background-color: rgb(230, 230, 230);
+}
+.film-content>img{
+    width: 100%;
+    height: auto;
 }

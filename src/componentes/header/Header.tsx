@@ -7,7 +7,7 @@ function Header(){
             <div>
                 <img src="src\assets\img\barbie-logo.png" className="header-logo" />
             </div>
-            <nav>
+            <nav className='menu-header'>
                 <ul>
                     <li>
                         <Link texto='Home'/>
