@@ -2,11 +2,10 @@ header{
     background-color: #ff5599;
     display: flex;
     justify-content: space-between;
-    padding: 0px 10vw;
     align-items: center;
     height: 60px;
-    width: 100vw;
-    position: fixed;
+    width: 100%;
+    max-width: 100%;
 }
 header ul{
     display: flex;
@@ -26,7 +25,8 @@ header ul li a:hover{
 }
 .header-logo{
     width: 100px;
+    padding-left: 270px;
 }
 .menu-header{
-    width: 40vw;
+    width: 40%;
 }
