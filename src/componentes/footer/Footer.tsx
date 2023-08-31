@@ -1,12 +1,12 @@
 import './Footer.css'
 import Link from './../link/Link'
 import Logo from './../../assets/img/barbie-logo.png'
-import Instagram from "../../assets/imagens/instagram.png";
-import Facebook from "../../assets/imagens/facebook.png";
-import Twitter from "../../assets/imagens/twitter.png";
-import Youtube from "../../assets/imagens/youtube.png";
-import Discord from "../../assets/imagens/discord.png";
-import Language from "../../assets/imagens/globo.png";
+import Instagram from "../../assets/img/instagram.png";
+import Facebook from "../../assets/img/facebook.png";
+import Twitter from "../../assets/img/twitter.png";
+import Youtube from "../../assets/img/youtube.png";
+import Discord from "../../assets/img/discord.png";
+import Language from "../../assets/img/globo.png";
 
 export default function Footer(){
     return(
