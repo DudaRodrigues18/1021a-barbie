@@ -1,11 +1,12 @@
 import './Header.css'
 import Link from './../link/Link'
+import Logo from './../../assets/img/barbie-logo.png'
 
 function Header(){
     return(
         <header>
             <div>
-                <img src="src\assets\img\barbie-logo.png" className="header-logo" />
+                <img src={Logo} className="header-logo" />
             </div>
             <nav className='menu-header'>
                 <ul>
