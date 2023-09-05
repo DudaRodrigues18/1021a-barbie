@@ -3,6 +3,11 @@ import './Main.css'
 
 export default function Main(){
     return(
+        <>
+        <div className="pesquisar">
+            <input type="text" placeholder='pesquisar'/>
+            <p>Digitado:</p>
+        </div>
         <main className="content-main">
         <Filme titulo='Barbie' 
                sinopse='Depois de ser expulsa da Barbieland por ser uma boneca de 
@@ -10,7 +15,7 @@ export default function Main(){
                busca da verdadeira felicidade.'
                imagem='./barbie-filme.png'
                />
-        <Filme titulo='Filme Barbie' 
+        <Filme titulo='Barbie' 
                sinopse='Depois de ser expulsa da Barbieland por ser uma boneca de 
                aparência menos do que perfeita, Barbie parte para o mundo humano em 
                busca da verdadeira felicidade.'
@@ -52,7 +57,7 @@ export default function Main(){
                busca da verdadeira felicidade.'
                imagem='./barbie-agentes.webp'
                />
-        
         </main>
+        </>
     )
 }

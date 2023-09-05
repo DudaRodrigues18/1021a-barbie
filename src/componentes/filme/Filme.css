@@ -1,24 +1,24 @@
 .film-content{
-    width: 220px;
+    width: 240px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 21px 8px rgba(0,0,0,0.1);
     padding: 15px 50px;
     height: auto;
 }
 .foto-filme{
-    min-height: 350px;
+    min-height: 380px;
     display: flex;
     align-items: center;
 }
 .foto-filme>img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 400px;
     max-height: 350px;
     overflow: hidden;
 }
 .sinopse{
     text-align: justify;
-    font-weight: 400;
+    font-weight: 380;
 }
 .text-barbie{
     color: #111111;
