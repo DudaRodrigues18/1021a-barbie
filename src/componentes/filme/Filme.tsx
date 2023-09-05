@@ -1,4 +1,4 @@
-import Imagem from "./../../assets/img/barbie-filme.png"
+import posterBarbie from "./../../assets/img/barbie-filme.png"
 import './Filme.css'
 type FilmeProps = {
     titulo:string,
@@ -9,7 +9,7 @@ type FilmeProps = {
 function Filme(props:FilmeProps){
     return(
             <div className="film-content">
-                <img src={Imagem} alt="" />
+                <img src={posterBarbie} alt="" />
                 <div className="text-barbie">
                     <h1>{props.titulo}</h1>
                     <p className="sinopse">{props.sinopse}</p>
