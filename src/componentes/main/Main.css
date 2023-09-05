@@ -2,6 +2,10 @@
     display: flex;
     gap: 30px;
     padding: 15px 100px;
-    height: 800px;
+    height: auto;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
