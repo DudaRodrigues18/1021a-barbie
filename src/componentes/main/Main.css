@@ -6,7 +6,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 .pesquisar{
@@ -16,9 +16,21 @@
     justify-content: center;
     height: 150px;
     margin-left: 200px;
+    margin-top: 20px;
     }
 .pesquisar>input{
     width: 20%;
     height: 30px;
     padding-left: 10px;
+}
+.botao-pesquisa{
+    height: 30px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+.botao-pesquisa:focus {
+    outline: 1px solid rgb(138, 157, 255);  
+   }
+.botao-pesquisa.visited {
+    outline: 1px solid rgb(138, 157, 255);   
 }
