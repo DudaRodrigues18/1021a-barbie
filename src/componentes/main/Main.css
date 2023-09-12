@@ -25,7 +25,7 @@
 }
 .botao-pesquisa{
     height: 30px;
-    border: 1px solid #f0f0f0;
+    border: 1px solid #d6d6d6;
     border-radius: 5px;
 }
 .botao-pesquisa:focus {

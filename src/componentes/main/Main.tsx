@@ -3,18 +3,15 @@ import Filme from './../filme/Filme'
 import './Main.css'
 
 export default function Main(){
-       const [textodigitado, funcaoMudaVariavel] = useState("Barbie")
-       function TrataTexto(){
-
-              console.log("Digitado")
-              funcaoMudaVariavel("TERE")
+       const [texto, setTexto] = useState("")
+       function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
+              setTexto(e.target.value)
        }
     return(
         <>
         <div className="pesquisar">
-              <p>Busque um filme</p>
-            <input type="text" className='botao-pesquisa' placeholder='pesquisar' onChange={TrataTexto}/>
-            <p>Digitado: {textodigitado}</p>
+            <input type="text" className='botao-pesquisa' placeholder='Pesquise um filme' onChange={TrataTexto}/>
+            {texto && <p>Resultados para: {texto}</p>}    
         </div>
         <main className="content-main">
         <Filme titulo='Barbie' 
