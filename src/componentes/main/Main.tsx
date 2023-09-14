@@ -30,7 +30,7 @@ export default function Main(){
                 titulo: 'Popstar',
                 sinopse: 'Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.',
                 imagem: './barbie-popstar.jpg'
-              }
+              },
               {
                 id: 4,
                 titulo: 'Portal secreto',
