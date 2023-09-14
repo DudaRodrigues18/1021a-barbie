@@ -44,7 +44,13 @@ export default function Main(){
                 imagem: './barbie-segredodasfadas.jpg'
               },
               {
-                id: 6,
+                id: 7,
+                titulo: 'Popstar',
+                sinopse: 'Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.',
+                imagem: './barbie-popstar.jpg'
+              },
+              {
+                id: 8,
                 titulo: 'Popstar',
                 sinopse: 'Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.',
                 imagem: './barbie-popstar.jpg'
