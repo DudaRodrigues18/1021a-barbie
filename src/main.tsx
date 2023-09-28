@@ -10,7 +10,12 @@ import {createBrowserRouter,RouterProvider} from "react-router-dom"
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <><Header/><Main/><Footer/></>,
+    element: 
+      <>
+      <Header/>
+      <Main/>
+      <Footer/>
+      </>,
   },
   {
     path: "/noticias",
@@ -23,11 +28,21 @@ const router = createBrowserRouter([
   },  
   {
     path: "/sobre",
-    element: <div>Página Sobre!</div>,
+    element: 
+      <>
+        <Header/>
+        <div>Página Sobre!</div>
+        <Footer/>
+      </>,
   },  
   {
     path: "/contato",
-    element: <div>Página de contato!</div>,
+    element: 
+      <>
+        <Header/>
+        <div>Página de contato!</div>
+        <Footer/>
+      </>,
   },  
 ]);
 
