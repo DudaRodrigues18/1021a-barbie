@@ -1,4 +1,5 @@
 import './Filme.css'
+
 type FilmeProps = {
     titulo:string,
     sinopse:string,
